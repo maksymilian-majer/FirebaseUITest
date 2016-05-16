@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (3.4.0)
+  - AzureSDK-iOS (1.2.4)
+  - Firebase (2.5.1)
+  - FirebaseUI/Core (0.3.2):
+    - Firebase (~> 2.2)
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - AzureSDK-iOS
+  - Firebase (~> 2.5)
+  - FirebaseUI/Core (~> 0.3)
+  - MBProgressHUD (~> 0.9.2)
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AzureSDK-iOS: faa868ba69b1c5abb27ecaec4046cf3a3fba4abd
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  FirebaseUI: 95621dce04f0313495c86e1fba503254e0ec48b1
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+PODFILE CHECKSUM: 277a1e629672e682e3401fa74c5ce330331bdefa
+
+COCOAPODS: 1.0.0
