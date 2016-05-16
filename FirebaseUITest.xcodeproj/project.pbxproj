@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8FC4126D522CCB6A431E604 /* Pods_FirebaseUITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF25F49B75EFB2EA1409DC /* Pods_FirebaseUITest.framework */; };
+		EDF8021A1CEA4F65008DB630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF802191CEA4F65008DB630 /* AppDelegate.swift */; };
+		EDF8021C1CEA4F65008DB630 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8021B1CEA4F65008DB630 /* MasterViewController.swift */; };
+		EDF8021E1CEA4F65008DB630 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8021D1CEA4F65008DB630 /* DetailViewController.swift */; };
+		EDF802211CEA4F65008DB630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF8021F1CEA4F65008DB630 /* Main.storyboard */; };
+		EDF802231CEA4F65008DB630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF802221CEA4F65008DB630 /* Assets.xcassets */; };
+		EDF802261CEA4F65008DB630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF802241CEA4F65008DB630 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EFF25F49B75EFB2EA1409DC /* Pods_FirebaseUITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseUITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F4D0B33299E50506B08C32 /* Pods-FirebaseUITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseUITest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseUITest/Pods-FirebaseUITest.release.xcconfig"; sourceTree = "<group>"; };
+		EDF802161CEA4F65008DB630 /* FirebaseUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF802191CEA4F65008DB630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF8021B1CEA4F65008DB630 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		EDF8021D1CEA4F65008DB630 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EDF802201CEA4F65008DB630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF802221CEA4F65008DB630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF802251CEA4F65008DB630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF802271CEA4F65008DB630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF766D6404EB54848B4B110F /* Pods-FirebaseUITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseUITest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseUITest/Pods-FirebaseUITest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF802131CEA4F65008DB630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FC4126D522CCB6A431E604 /* Pods_FirebaseUITest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45339ECE51ADE7FC3670A081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF25F49B75EFB2EA1409DC /* Pods_FirebaseUITest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDF8020D1CEA4F65008DB630 = {
+			isa = PBXGroup;
+			children = (
+				EDF802181CEA4F65008DB630 /* FirebaseUITest */,
+				EDF802171CEA4F65008DB630 /* Products */,
+				F6BB478CC5915C8A5FB6A46C /* Pods */,
+				45339ECE51ADE7FC3670A081 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF802171CEA4F65008DB630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF802161CEA4F65008DB630 /* FirebaseUITest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF802181CEA4F65008DB630 /* FirebaseUITest */ = {
+			isa = PBXGroup;
+			children = (
+				EDF802191CEA4F65008DB630 /* AppDelegate.swift */,
+				EDF8021B1CEA4F65008DB630 /* MasterViewController.swift */,
+				EDF8021D1CEA4F65008DB630 /* DetailViewController.swift */,
+				EDF8021F1CEA4F65008DB630 /* Main.storyboard */,
+				EDF802221CEA4F65008DB630 /* Assets.xcassets */,
+				EDF802241CEA4F65008DB630 /* LaunchScreen.storyboard */,
+				EDF802271CEA4F65008DB630 /* Info.plist */,
+			);
+			path = FirebaseUITest;
+			sourceTree = "<group>";
+		};
+		F6BB478CC5915C8A5FB6A46C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF766D6404EB54848B4B110F /* Pods-FirebaseUITest.debug.xcconfig */,
+				40F4D0B33299E50506B08C32 /* Pods-FirebaseUITest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF802151CEA4F65008DB630 /* FirebaseUITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF8022A1CEA4F65008DB630 /* Build configuration list for PBXNativeTarget "FirebaseUITest" */;
+			buildPhases = (
+				5D0B49AD0D6BB6BCE8186EEB /* 📦 Check Pods Manifest.lock */,
+				EDF802121CEA4F65008DB630 /* Sources */,
+				EDF802131CEA4F65008DB630 /* Frameworks */,
+				EDF802141CEA4F65008DB630 /* Resources */,
+				54EFB23337C204837A2642B1 /* 📦 Embed Pods Frameworks */,
+				9A8F58076BFA5C651230CED4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseUITest;
+			productName = FirebaseUITest;
+			productReference = EDF802161CEA4F65008DB630 /* FirebaseUITest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF8020E1CEA4F65008DB630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					EDF802151CEA4F65008DB630 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EDF802111CEA4F65008DB630 /* Build configuration list for PBXProject "FirebaseUITest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF8020D1CEA4F65008DB630;
+			productRefGroup = EDF802171CEA4F65008DB630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF802151CEA4F65008DB630 /* FirebaseUITest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF802141CEA4F65008DB630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF802261CEA4F65008DB630 /* LaunchScreen.storyboard in Resources */,
+				EDF802231CEA4F65008DB630 /* Assets.xcassets in Resources */,
+				EDF802211CEA4F65008DB630 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54EFB23337C204837A2642B1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseUITest/Pods-FirebaseUITest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D0B49AD0D6BB6BCE8186EEB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8F58076BFA5C651230CED4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseUITest/Pods-FirebaseUITest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF802121CEA4F65008DB630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF8021E1CEA4F65008DB630 /* DetailViewController.swift in Sources */,
+				EDF8021C1CEA4F65008DB630 /* MasterViewController.swift in Sources */,
+				EDF8021A1CEA4F65008DB630 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF8021F1CEA4F65008DB630 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF802201CEA4F65008DB630 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF802241CEA4F65008DB630 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF802251CEA4F65008DB630 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF802281CEA4F65008DB630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF802291CEA4F65008DB630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF8022B1CEA4F65008DB630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF766D6404EB54848B4B110F /* Pods-FirebaseUITest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirebaseUITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuitest.FirebaseUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF8022C1CEA4F65008DB630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F4D0B33299E50506B08C32 /* Pods-FirebaseUITest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirebaseUITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuitest.FirebaseUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF802111CEA4F65008DB630 /* Build configuration list for PBXProject "FirebaseUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF802281CEA4F65008DB630 /* Debug */,
+				EDF802291CEA4F65008DB630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF8022A1CEA4F65008DB630 /* Build configuration list for PBXNativeTarget "FirebaseUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF8022B1CEA4F65008DB630 /* Debug */,
+				EDF8022C1CEA4F65008DB630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF8020E1CEA4F65008DB630 /* Project object */;
+}
